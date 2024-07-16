@@ -22,8 +22,23 @@ new_mesh = om.MFnMesh()
 points = []
 polygonConnects = []
 
-for index, idx in enumerate(vertexIds):
-    points.append(mfn_mesh.getPoint(idx))
+#######
+
+print(mfn_mesh.onBoundary(136))
+print(mfn_mesh.edgeBorderInfo(702))
+
+borderPoly = []
+border_sel = om.MSelectionList()
+for index in range(0, mfn_mesh.numPolygons-1):
+    if mfn_mesh.onBoundary(index):
+        borderPoly.append(index)
+        border_sel.add('polySurface11.f[{0}]'.format(index))
+print(border_sel)
+om.MGlobal.setActiveSelectionList(border_sel)
+
+#######
+for index, id in enumerate(vertexIds):
+    points.append(mfn_mesh.getPoint(id))
     polygonConnects.append(index)
 
 print(points, polygonConnects)
