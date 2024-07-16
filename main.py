@@ -36,6 +36,17 @@ for index in range(0, mfn_mesh.numPolygons-1):
 print(border_sel)
 om.MGlobal.setActiveSelectionList(border_sel)
 
+# Takes every polygon making the border and get their edges with the PolyInfo command #
+for poly in borderPoly:
+    cmds.select(poly)
+    edges = re.findall("[\w]+", cmds.polyInfo(fe=True)[0])
+    del edges[0:2]
+    for edge in edges:
+        print(mfn_mesh.edgeBorderInfo(int(edge)))
+        if mfn_mesh.edgeBorderInfo(int(edge)) == -2:
+            cmds.select('polySurface11.e[{0}]'.format(edge), r=True)
+
+
 #######
 for index, id in enumerate(vertexIds):
     points.append(mfn_mesh.getPoint(id))
