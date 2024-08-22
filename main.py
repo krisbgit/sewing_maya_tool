@@ -1,3 +1,4 @@
+import os
 import re
 import math
 import maya.api.OpenMaya as om
@@ -6,7 +7,8 @@ import xml_parser
 
 class Pattern():
 
-    def __init__(self, geometry, detection_degree_threshold, pattern_index, seam_info):
+    def __init__(self, geometry, detection_degree_threshold, pattern_index, seam_info, global_vertex_range):
+        self.geometry = geometry
         self.detection_degree_threshold = detection_degree_threshold
         self.pattern_index = pattern_index
         self.object = self.init_api_objects(geometry)
@@ -14,7 +16,8 @@ class Pattern():
         self.vertices = self.get_corner_vertex_by_angle(self.border_edge)
         self.min_vertex, self.max_vertex = self.find_min_max_vertices()
         self.seams = self.find_seam_by_vertices(seam_info)
-        
+        self.global_vertex_range = global_vertex_range
+        self.current_vertices = 0
         self.create()
 
     def find_seam_by_vertices(self, seam_info):
@@ -111,6 +114,8 @@ class Pattern():
 
         new_polygon_object.create(polygon_points, [len(polygon_points)], polygon_connects)
         new_polygon_object.updateSurface()
+        print(len(polygon_points))
+        self.current_vertices = len(polygon_points)
 
     def _get_boundary_polygons(self, object_name, object_mesh_component):
         object_num_polygons = object_mesh_component.numPolygons
@@ -170,12 +175,26 @@ class Pattern():
         return re.findall(r"[\w]+", text)
 
 
-if __name__ == "__main__":
-    filepath = "C:\\Users\\Kras\\Desktop\\smt_exportPattern_002_meta_data.xml"
+def sort_pieces_by_vertex_index():
+    sorted_pieces = []
+    for geo in cmds.ls(sl=True):
+        geometry_index = re.findall(r'[\d]', geo)
+        geometry = "".join(geometry_index)
+        sorted_pieces.append(int(geometry))
+    return sorted(sorted_pieces)
+
+def create_pattern():
+    filepath = os.path.join(os.path.dirname(__file__),"smt_exportPattern_002_meta_data.xml")
     seam_info = xml_parser.extract_seams_info(filepath)
 
     pieces = []
+    global_vertex_range = 0
     for index, geometry in enumerate(cmds.ls(sl=True)):
-        piece = Pattern(geometry, detection_degree_threshold=50, pattern_index=index, seam_info=seam_info)
+        cmds.select(geometry)
+        global_vertex_range += int(cmds.polyEvaluate(v=True))
+        piece = Pattern(geometry, detection_degree_threshold=50, pattern_index=index, seam_info=seam_info, global_vertex_range=global_vertex_range)
         pieces.append(piece)
-    print(pieces)
+    return pieces
+
+if __name__ == "__main__":
+    create_pattern()

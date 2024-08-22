@@ -1,0 +1,1030 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MetaData Version="1" ObjFileName="smt_exportPattern_002.obj">
+    <PhysicalPropertyList>
+        <PhysicalProperty PhysicalPropertyName="Default_0" Stretch-Weft="100000" Stretch-Warp="100000" Shear="20000" Bending-Weft="6283.19" Bending-Warp="6283.19" BucklingRatio-Weft="0.8" BucklingRatio-Warp="0.8" InternalDamping="0.0001" BucklingStiffness-Weft="0.8" BucklingStiffness-Warp="0.8" Density="0.0003" FrictionCoefficient="0.03"/>
+        <PhysicalProperty PhysicalPropertyName="Default_1" Stretch-Weft="100000" Stretch-Warp="100000" Shear="20000" Bending-Weft="6283.19" Bending-Warp="6283.19" BucklingRatio-Weft="0.8" BucklingRatio-Warp="0.8" InternalDamping="0.0001" BucklingStiffness-Weft="0.8" BucklingStiffness-Warp="0.8" Density="0.0003" FrictionCoefficient="0.03"/>
+        <PhysicalProperty PhysicalPropertyName="Default_2" Stretch-Weft="100000" Stretch-Warp="100000" Shear="20000" Bending-Weft="6283.19" Bending-Warp="6283.19" BucklingRatio-Weft="0.8" BucklingRatio-Warp="0.8" InternalDamping="0.0001" BucklingStiffness-Weft="0.8" BucklingStiffness-Warp="0.8" Density="0.0003" FrictionCoefficient="0.03"/>
+        <PhysicalProperty PhysicalPropertyName="Default_3" Stretch-Weft="100000" Stretch-Warp="120000" Shear="18000" Bending-Weft="7539.82" Bending-Warp="219911" BucklingRatio-Weft="0.15" BucklingRatio-Warp="0.8" InternalDamping="0.0001" BucklingStiffness-Weft="0.8" BucklingStiffness-Warp="0.8" Density="0.00019" FrictionCoefficient="0.36"/>
+        <PhysicalProperty PhysicalPropertyName="Default_4" Stretch-Weft="100000" Stretch-Warp="100000" Shear="20000" Bending-Weft="6283.19" Bending-Warp="6283.19" BucklingRatio-Weft="0.8" BucklingRatio-Warp="0.8" InternalDamping="0.0001" BucklingStiffness-Weft="0.8" BucklingStiffness-Warp="0.8" Density="0.0003" FrictionCoefficient="0.03"/>
+        <PhysicalProperty PhysicalPropertyName="Default_5" Stretch-Weft="100000" Stretch-Warp="100000" Shear="20000" Bending-Weft="6283.19" Bending-Warp="6283.19" BucklingRatio-Weft="0.8" BucklingRatio-Warp="0.8" InternalDamping="0.0001" BucklingStiffness-Weft="0.8" BucklingStiffness-Warp="0.8" Density="0.0003" FrictionCoefficient="0.03"/>
+        <PhysicalProperty PhysicalPropertyName="Default_6" Stretch-Weft="100000" Stretch-Warp="100000" Shear="20000" Bending-Weft="6283.19" Bending-Warp="6283.19" BucklingRatio-Weft="0.8" BucklingRatio-Warp="0.8" InternalDamping="0.0001" BucklingStiffness-Weft="0.8" BucklingStiffness-Warp="0.8" Density="0.0003" FrictionCoefficient="0.03"/>
+        <PhysicalProperty PhysicalPropertyName="Default_7" Stretch-Weft="100000" Stretch-Warp="100000" Shear="20000" Bending-Weft="6283.19" Bending-Warp="6283.19" BucklingRatio-Weft="0.8" BucklingRatio-Warp="0.8" InternalDamping="0.0001" BucklingStiffness-Weft="0.8" BucklingStiffness-Warp="0.8" Density="0.0003" FrictionCoefficient="0.03"/>
+    </PhysicalPropertyList>
+    <MeshList>
+        <Mesh MeshStartIndex="1" MeshEndIndex="29" PhysicalPropertyName="Default_0"/>
+        <Mesh MeshStartIndex="30" MeshEndIndex="57" PhysicalPropertyName="Default_0">
+            <InternalShapeList>
+                <InternalShape FoldAngle="0" Hole="false" RenderFold="true" InnerBKScale="1">
+                    <Line MeshPointIndexes="39/47/48/49/31"/>
+                </InternalShape>
+            </InternalShapeList>
+        </Mesh>
+        <Mesh MeshStartIndex="58" MeshEndIndex="79" PhysicalPropertyName="Default_0">
+            <InternalShapeList>
+                <InternalShape FoldAngle="0" Hole="false" RenderFold="true" InnerBKScale="2">
+                    <Line MeshPointIndexes="60/71/72/66"/>
+                </InternalShape>
+            </InternalShapeList>
+        </Mesh>
+        <Mesh MeshStartIndex="80" MeshEndIndex="253" PhysicalPropertyName="Default_2"/>
+        <Mesh MeshStartIndex="254" MeshEndIndex="415" PhysicalPropertyName="Default_2"/>
+        <Mesh MeshStartIndex="416" MeshEndIndex="468" PhysicalPropertyName="Default_5">
+            <InternalShapeList>
+                <InternalShape FoldAngle="0" Hole="false" RenderFold="true" InnerBKScale="0.4">
+                    <Line MeshPointIndexes="418/443/444/445/446/447/448/429"/>
+                </InternalShape>
+            </InternalShapeList>
+        </Mesh>
+        <Mesh MeshStartIndex="469" MeshEndIndex="521" PhysicalPropertyName="Default_5">
+            <InternalShapeList>
+                <InternalShape FoldAngle="0" Hole="false" RenderFold="true" InnerBKScale="0.4">
+                    <Line MeshPointIndexes="471/496/497/498/499/500/501/482"/>
+                </InternalShape>
+            </InternalShapeList>
+        </Mesh>
+        <Mesh MeshStartIndex="522" MeshEndIndex="651" PhysicalPropertyName="Default_0"/>
+        <Mesh MeshStartIndex="652" MeshEndIndex="677" PhysicalPropertyName="Default_0"/>
+        <Mesh MeshStartIndex="678" MeshEndIndex="1266" PhysicalPropertyName="Default_1"/>
+        <Mesh MeshStartIndex="1267" MeshEndIndex="1845" PhysicalPropertyName="Default_1"/>
+        <Mesh MeshStartIndex="1846" MeshEndIndex="2482" PhysicalPropertyName="Default_1"/>
+        <Mesh MeshStartIndex="2483" MeshEndIndex="3135" PhysicalPropertyName="Default_1"/>
+        <Mesh MeshStartIndex="3136" MeshEndIndex="3541" PhysicalPropertyName="Default_3"/>
+        <Mesh MeshStartIndex="3542" MeshEndIndex="3680" PhysicalPropertyName="Default_7">
+            <InternalShapeList>
+                <InternalShape FoldAngle="0" Hole="false" RenderFold="true" InnerBKScale="4.4">
+                    <Line MeshPointIndexes="3544/3587/3588/3589/3590/3591/3592/3593/3594/3595"/>
+                </InternalShape>
+                <InternalShape FoldAngle="0" Hole="false" RenderFold="true" InnerBKScale="4.4">
+                    <Line MeshPointIndexes="3547/3596/3597/3598/3599/3600/3601/3602/3603/3604"/>
+                </InternalShape>
+                <InternalShape FoldAngle="0" Hole="false" RenderFold="true" InnerBKScale="4.4">
+                    <Line MeshPointIndexes="3546/3605/3606/3607/3608/3609/3610/3611/3612/3613"/>
+                </InternalShape>
+            </InternalShapeList>
+        </Mesh>
+        <Mesh MeshStartIndex="3681" MeshEndIndex="3809" PhysicalPropertyName="Default_7">
+            <InternalShapeList>
+                <InternalShape FoldAngle="0" Hole="false" RenderFold="true" InnerBKScale="4.4">
+                    <Line MeshPointIndexes="3713/3727/3728/3729/3730/3731/3732/3733/3734/3735/3736"/>
+                </InternalShape>
+                <InternalShape FoldAngle="0" Hole="false" RenderFold="true" InnerBKScale="4.4">
+                    <Line MeshPointIndexes="3710/3737/3738/3739/3740/3741/3742/3743/3744/3745/3746"/>
+                </InternalShape>
+                <InternalShape FoldAngle="0" Hole="false" RenderFold="true" InnerBKScale="4.4">
+                    <Line MeshPointIndexes="3711/3747/3748/3749/3750/3751/3752/3753/3754/3755/3756"/>
+                </InternalShape>
+            </InternalShapeList>
+        </Mesh>
+        <Mesh MeshStartIndex="3810" MeshEndIndex="3915" PhysicalPropertyName="Default_3"/>
+        <Mesh MeshStartIndex="3916" MeshEndIndex="3962" PhysicalPropertyName="Default_3"/>
+        <Mesh MeshStartIndex="3963" MeshEndIndex="4077" PhysicalPropertyName="Default_3"/>
+        <Mesh MeshStartIndex="4078" MeshEndIndex="4126" PhysicalPropertyName="Default_3"/>
+        <Mesh MeshStartIndex="4127" MeshEndIndex="4544" PhysicalPropertyName="Default_3"/>
+        <Mesh MeshStartIndex="4545" MeshEndIndex="4632" PhysicalPropertyName="Default_3">
+            <InternalShapeList>
+                <InternalShape FoldAngle="-1" Hole="false" RenderFold="true" InnerBKScale="1">
+                    <Line MeshPointIndexes="4572/4573/4574/4549"/>
+                </InternalShape>
+                <InternalShape FoldAngle="1" Hole="false" RenderFold="true" InnerBKScale="1">
+                    <Line MeshPointIndexes="4571/4575/4576/4550"/>
+                </InternalShape>
+                <InternalShape FoldAngle="-1" Hole="false" RenderFold="true" InnerBKScale="1">
+                    <Line MeshPointIndexes="4570/4577/4578/4551"/>
+                </InternalShape>
+                <InternalShape FoldAngle="1" Hole="false" RenderFold="true" InnerBKScale="1">
+                    <Line MeshPointIndexes="4569/4579/4580/4552"/>
+                </InternalShape>
+                <InternalShape FoldAngle="-1" Hole="false" RenderFold="true" InnerBKScale="1">
+                    <Line MeshPointIndexes="4568/4581/4582/4553"/>
+                </InternalShape>
+                <InternalShape FoldAngle="1" Hole="false" RenderFold="true" InnerBKScale="1">
+                    <Line MeshPointIndexes="4567/4583/4584/4554"/>
+                </InternalShape>
+                <InternalShape FoldAngle="-1" Hole="false" RenderFold="true" InnerBKScale="1">
+                    <Line MeshPointIndexes="4566/4585/4586/4555"/>
+                </InternalShape>
+                <InternalShape FoldAngle="1" Hole="false" RenderFold="true" InnerBKScale="1">
+                    <Line MeshPointIndexes="4565/4587/4588/4556"/>
+                </InternalShape>
+                <InternalShape FoldAngle="-1" Hole="false" RenderFold="true" InnerBKScale="1">
+                    <Line MeshPointIndexes="4564/4589/4590/4557"/>
+                </InternalShape>
+                <InternalShape FoldAngle="1" Hole="false" RenderFold="true" InnerBKScale="1">
+                    <Line MeshPointIndexes="4563/4591/4592/4558"/>
+                </InternalShape>
+            </InternalShapeList>
+        </Mesh>
+        <Mesh MeshStartIndex="4633" MeshEndIndex="4720" PhysicalPropertyName="Default_3">
+            <InternalShapeList>
+                <InternalShape FoldAngle="-1" Hole="false" RenderFold="true" InnerBKScale="1">
+                    <Line MeshPointIndexes="4660/4661/4662/4637"/>
+                </InternalShape>
+                <InternalShape FoldAngle="1" Hole="false" RenderFold="true" InnerBKScale="1">
+                    <Line MeshPointIndexes="4659/4663/4664/4638"/>
+                </InternalShape>
+                <InternalShape FoldAngle="-1" Hole="false" RenderFold="true" InnerBKScale="1">
+                    <Line MeshPointIndexes="4658/4665/4666/4639"/>
+                </InternalShape>
+                <InternalShape FoldAngle="1" Hole="false" RenderFold="true" InnerBKScale="1">
+                    <Line MeshPointIndexes="4657/4667/4668/4640"/>
+                </InternalShape>
+                <InternalShape FoldAngle="-1" Hole="false" RenderFold="true" InnerBKScale="1">
+                    <Line MeshPointIndexes="4656/4669/4670/4641"/>
+                </InternalShape>
+                <InternalShape FoldAngle="1" Hole="false" RenderFold="true" InnerBKScale="1">
+                    <Line MeshPointIndexes="4655/4671/4672/4642"/>
+                </InternalShape>
+                <InternalShape FoldAngle="-1" Hole="false" RenderFold="true" InnerBKScale="1">
+                    <Line MeshPointIndexes="4654/4673/4674/4643"/>
+                </InternalShape>
+                <InternalShape FoldAngle="1" Hole="false" RenderFold="true" InnerBKScale="1">
+                    <Line MeshPointIndexes="4653/4675/4676/4644"/>
+                </InternalShape>
+                <InternalShape FoldAngle="-1" Hole="false" RenderFold="true" InnerBKScale="1">
+                    <Line MeshPointIndexes="4652/4677/4678/4645"/>
+                </InternalShape>
+                <InternalShape FoldAngle="1" Hole="false" RenderFold="true" InnerBKScale="1">
+                    <Line MeshPointIndexes="4651/4679/4680/4646"/>
+                </InternalShape>
+            </InternalShapeList>
+        </Mesh>
+        <Mesh MeshStartIndex="4721" MeshEndIndex="4808" PhysicalPropertyName="Default_3">
+            <InternalShapeList>
+                <InternalShape FoldAngle="1" Hole="false" RenderFold="true" InnerBKScale="1">
+                    <Line MeshPointIndexes="4748/4749/4750/4725"/>
+                </InternalShape>
+                <InternalShape FoldAngle="-1" Hole="false" RenderFold="true" InnerBKScale="1">
+                    <Line MeshPointIndexes="4747/4751/4752/4726"/>
+                </InternalShape>
+                <InternalShape FoldAngle="1" Hole="false" RenderFold="true" InnerBKScale="1">
+                    <Line MeshPointIndexes="4746/4753/4754/4727"/>
+                </InternalShape>
+                <InternalShape FoldAngle="-1" Hole="false" RenderFold="true" InnerBKScale="1">
+                    <Line MeshPointIndexes="4745/4755/4756/4728"/>
+                </InternalShape>
+                <InternalShape FoldAngle="1" Hole="false" RenderFold="true" InnerBKScale="1">
+                    <Line MeshPointIndexes="4744/4757/4758/4729"/>
+                </InternalShape>
+                <InternalShape FoldAngle="-1" Hole="false" RenderFold="true" InnerBKScale="1">
+                    <Line MeshPointIndexes="4743/4759/4760/4730"/>
+                </InternalShape>
+                <InternalShape FoldAngle="1" Hole="false" RenderFold="true" InnerBKScale="1">
+                    <Line MeshPointIndexes="4742/4761/4762/4731"/>
+                </InternalShape>
+                <InternalShape FoldAngle="-1" Hole="false" RenderFold="true" InnerBKScale="1">
+                    <Line MeshPointIndexes="4741/4763/4764/4732"/>
+                </InternalShape>
+                <InternalShape FoldAngle="1" Hole="false" RenderFold="true" InnerBKScale="1">
+                    <Line MeshPointIndexes="4740/4765/4766/4733"/>
+                </InternalShape>
+                <InternalShape FoldAngle="-1" Hole="false" RenderFold="true" InnerBKScale="1">
+                    <Line MeshPointIndexes="4739/4767/4768/4734"/>
+                </InternalShape>
+            </InternalShapeList>
+        </Mesh>
+        <Mesh MeshStartIndex="4809" MeshEndIndex="4896" PhysicalPropertyName="Default_3">
+            <InternalShapeList>
+                <InternalShape FoldAngle="-1" Hole="false" RenderFold="true" InnerBKScale="1">
+                    <Line MeshPointIndexes="4836/4837/4838/4813"/>
+                </InternalShape>
+                <InternalShape FoldAngle="1" Hole="false" RenderFold="true" InnerBKScale="1">
+                    <Line MeshPointIndexes="4835/4839/4840/4814"/>
+                </InternalShape>
+                <InternalShape FoldAngle="-1" Hole="false" RenderFold="true" InnerBKScale="1">
+                    <Line MeshPointIndexes="4834/4841/4842/4815"/>
+                </InternalShape>
+                <InternalShape FoldAngle="1" Hole="false" RenderFold="true" InnerBKScale="1">
+                    <Line MeshPointIndexes="4833/4843/4844/4816"/>
+                </InternalShape>
+                <InternalShape FoldAngle="-1" Hole="false" RenderFold="true" InnerBKScale="1">
+                    <Line MeshPointIndexes="4832/4845/4846/4817"/>
+                </InternalShape>
+                <InternalShape FoldAngle="1" Hole="false" RenderFold="true" InnerBKScale="1">
+                    <Line MeshPointIndexes="4831/4847/4848/4818"/>
+                </InternalShape>
+                <InternalShape FoldAngle="-1" Hole="false" RenderFold="true" InnerBKScale="1">
+                    <Line MeshPointIndexes="4830/4849/4850/4819"/>
+                </InternalShape>
+                <InternalShape FoldAngle="1" Hole="false" RenderFold="true" InnerBKScale="1">
+                    <Line MeshPointIndexes="4829/4851/4852/4820"/>
+                </InternalShape>
+                <InternalShape FoldAngle="-1" Hole="false" RenderFold="true" InnerBKScale="1">
+                    <Line MeshPointIndexes="4828/4853/4854/4821"/>
+                </InternalShape>
+                <InternalShape FoldAngle="1" Hole="false" RenderFold="true" InnerBKScale="1">
+                    <Line MeshPointIndexes="4827/4855/4856/4822"/>
+                </InternalShape>
+            </InternalShapeList>
+        </Mesh>
+        <Mesh MeshStartIndex="4897" MeshEndIndex="5808" PhysicalPropertyName="Default_4">
+            <InternalShapeList>
+                <InternalShape FoldAngle="-1" Hole="false" RenderFold="true" InnerBKScale="1">
+                    <Line MeshPointIndexes="5307/5309/4901"/>
+                </InternalShape>
+                <InternalShape FoldAngle="1" Hole="false" RenderFold="true" InnerBKScale="1">
+                    <Line MeshPointIndexes="5305/5310/4903"/>
+                </InternalShape>
+                <InternalShape FoldAngle="-1" Hole="false" RenderFold="true" InnerBKScale="1">
+                    <Line MeshPointIndexes="5303/5311/4905"/>
+                </InternalShape>
+                <InternalShape FoldAngle="1" Hole="false" RenderFold="true" InnerBKScale="1">
+                    <Line MeshPointIndexes="5301/5312/4907"/>
+                </InternalShape>
+                <InternalShape FoldAngle="-1" Hole="false" RenderFold="true" InnerBKScale="1">
+                    <Line MeshPointIndexes="5299/5313/4909"/>
+                </InternalShape>
+                <InternalShape FoldAngle="1" Hole="false" RenderFold="true" InnerBKScale="1">
+                    <Line MeshPointIndexes="5297/5314/4911"/>
+                </InternalShape>
+                <InternalShape FoldAngle="-1" Hole="false" RenderFold="true" InnerBKScale="1">
+                    <Line MeshPointIndexes="5295/5315/4913"/>
+                </InternalShape>
+                <InternalShape FoldAngle="1" Hole="false" RenderFold="true" InnerBKScale="1">
+                    <Line MeshPointIndexes="5293/5316/4915"/>
+                </InternalShape>
+                <InternalShape FoldAngle="-1" Hole="false" RenderFold="true" InnerBKScale="1">
+                    <Line MeshPointIndexes="5291/5317/4917"/>
+                </InternalShape>
+                <InternalShape FoldAngle="1" Hole="false" RenderFold="true" InnerBKScale="1">
+                    <Line MeshPointIndexes="5289/5318/4919"/>
+                </InternalShape>
+                <InternalShape FoldAngle="-1" Hole="false" RenderFold="true" InnerBKScale="1">
+                    <Line MeshPointIndexes="5287/5319/4921"/>
+                </InternalShape>
+                <InternalShape FoldAngle="1" Hole="false" RenderFold="true" InnerBKScale="1">
+                    <Line MeshPointIndexes="5285/5320/4923"/>
+                </InternalShape>
+                <InternalShape FoldAngle="-1" Hole="false" RenderFold="true" InnerBKScale="1">
+                    <Line MeshPointIndexes="5283/5321/4925"/>
+                </InternalShape>
+                <InternalShape FoldAngle="1" Hole="false" RenderFold="true" InnerBKScale="1">
+                    <Line MeshPointIndexes="5281/5322/4927"/>
+                </InternalShape>
+                <InternalShape FoldAngle="-1" Hole="false" RenderFold="true" InnerBKScale="1">
+                    <Line MeshPointIndexes="5279/5323/4929"/>
+                </InternalShape>
+                <InternalShape FoldAngle="1" Hole="false" RenderFold="true" InnerBKScale="1">
+                    <Line MeshPointIndexes="5277/5324/4931"/>
+                </InternalShape>
+                <InternalShape FoldAngle="-1" Hole="false" RenderFold="true" InnerBKScale="1">
+                    <Line MeshPointIndexes="5275/5325/4933"/>
+                </InternalShape>
+                <InternalShape FoldAngle="1" Hole="false" RenderFold="true" InnerBKScale="1">
+                    <Line MeshPointIndexes="5273/5326/4935"/>
+                </InternalShape>
+                <InternalShape FoldAngle="-1" Hole="false" RenderFold="true" InnerBKScale="1">
+                    <Line MeshPointIndexes="5271/5327/4937"/>
+                </InternalShape>
+                <InternalShape FoldAngle="1" Hole="false" RenderFold="true" InnerBKScale="1">
+                    <Line MeshPointIndexes="5269/5328/4939"/>
+                </InternalShape>
+                <InternalShape FoldAngle="-1" Hole="false" RenderFold="true" InnerBKScale="1">
+                    <Line MeshPointIndexes="5267/5329/4941"/>
+                </InternalShape>
+                <InternalShape FoldAngle="1" Hole="false" RenderFold="true" InnerBKScale="1">
+                    <Line MeshPointIndexes="5265/5330/4943"/>
+                </InternalShape>
+                <InternalShape FoldAngle="-1" Hole="false" RenderFold="true" InnerBKScale="1">
+                    <Line MeshPointIndexes="5263/5331/4945"/>
+                </InternalShape>
+                <InternalShape FoldAngle="1" Hole="false" RenderFold="true" InnerBKScale="1">
+                    <Line MeshPointIndexes="5261/5332/4947"/>
+                </InternalShape>
+                <InternalShape FoldAngle="-1" Hole="false" RenderFold="true" InnerBKScale="1">
+                    <Line MeshPointIndexes="5259/5333/4949"/>
+                </InternalShape>
+                <InternalShape FoldAngle="1" Hole="false" RenderFold="true" InnerBKScale="1">
+                    <Line MeshPointIndexes="5255/5334/4951"/>
+                </InternalShape>
+                <InternalShape FoldAngle="-1" Hole="false" RenderFold="true" InnerBKScale="1">
+                    <Line MeshPointIndexes="5253/5335/4953"/>
+                </InternalShape>
+                <InternalShape FoldAngle="1" Hole="false" RenderFold="true" InnerBKScale="1">
+                    <Line MeshPointIndexes="5251/5336/4955"/>
+                </InternalShape>
+                <InternalShape FoldAngle="-1" Hole="false" RenderFold="true" InnerBKScale="1">
+                    <Line MeshPointIndexes="5249/5337/4957"/>
+                </InternalShape>
+                <InternalShape FoldAngle="1" Hole="false" RenderFold="true" InnerBKScale="1">
+                    <Line MeshPointIndexes="5247/5338/4959"/>
+                </InternalShape>
+                <InternalShape FoldAngle="-1" Hole="false" RenderFold="true" InnerBKScale="1">
+                    <Line MeshPointIndexes="5245/5339/4961"/>
+                </InternalShape>
+                <InternalShape FoldAngle="1" Hole="false" RenderFold="true" InnerBKScale="1">
+                    <Line MeshPointIndexes="5243/5340/4963"/>
+                </InternalShape>
+                <InternalShape FoldAngle="-1" Hole="false" RenderFold="true" InnerBKScale="1">
+                    <Line MeshPointIndexes="5241/5341/4965"/>
+                </InternalShape>
+                <InternalShape FoldAngle="1" Hole="false" RenderFold="true" InnerBKScale="1">
+                    <Line MeshPointIndexes="5239/5342/4967"/>
+                </InternalShape>
+                <InternalShape FoldAngle="-1" Hole="false" RenderFold="true" InnerBKScale="1">
+                    <Line MeshPointIndexes="5237/5343/4969"/>
+                </InternalShape>
+                <InternalShape FoldAngle="1" Hole="false" RenderFold="true" InnerBKScale="1">
+                    <Line MeshPointIndexes="5235/5344/4971"/>
+                </InternalShape>
+                <InternalShape FoldAngle="-1" Hole="false" RenderFold="true" InnerBKScale="1">
+                    <Line MeshPointIndexes="5233/5345/4973"/>
+                </InternalShape>
+                <InternalShape FoldAngle="1" Hole="false" RenderFold="true" InnerBKScale="1">
+                    <Line MeshPointIndexes="5231/5346/4975"/>
+                </InternalShape>
+                <InternalShape FoldAngle="-1" Hole="false" RenderFold="true" InnerBKScale="1">
+                    <Line MeshPointIndexes="5229/5347/4977"/>
+                </InternalShape>
+                <InternalShape FoldAngle="1" Hole="false" RenderFold="true" InnerBKScale="1">
+                    <Line MeshPointIndexes="5227/5348/4979"/>
+                </InternalShape>
+                <InternalShape FoldAngle="-1" Hole="false" RenderFold="true" InnerBKScale="1">
+                    <Line MeshPointIndexes="5225/5349/4981"/>
+                </InternalShape>
+                <InternalShape FoldAngle="1" Hole="false" RenderFold="true" InnerBKScale="1">
+                    <Line MeshPointIndexes="5223/5350/4983"/>
+                </InternalShape>
+                <InternalShape FoldAngle="-1" Hole="false" RenderFold="true" InnerBKScale="1">
+                    <Line MeshPointIndexes="5221/5351/4985"/>
+                </InternalShape>
+                <InternalShape FoldAngle="1" Hole="false" RenderFold="true" InnerBKScale="1">
+                    <Line MeshPointIndexes="5219/5352/4987"/>
+                </InternalShape>
+                <InternalShape FoldAngle="-1" Hole="false" RenderFold="true" InnerBKScale="1">
+                    <Line MeshPointIndexes="5217/5353/4989"/>
+                </InternalShape>
+                <InternalShape FoldAngle="1" Hole="false" RenderFold="true" InnerBKScale="1">
+                    <Line MeshPointIndexes="5215/5354/4991"/>
+                </InternalShape>
+                <InternalShape FoldAngle="-1" Hole="false" RenderFold="true" InnerBKScale="1">
+                    <Line MeshPointIndexes="5213/5355/4993"/>
+                </InternalShape>
+                <InternalShape FoldAngle="1" Hole="false" RenderFold="true" InnerBKScale="1">
+                    <Line MeshPointIndexes="5211/5356/4995"/>
+                </InternalShape>
+                <InternalShape FoldAngle="-1" Hole="false" RenderFold="true" InnerBKScale="1">
+                    <Line MeshPointIndexes="5209/5357/4997"/>
+                </InternalShape>
+                <InternalShape FoldAngle="1" Hole="false" RenderFold="true" InnerBKScale="1">
+                    <Line MeshPointIndexes="5205/5358/4999"/>
+                </InternalShape>
+                <InternalShape FoldAngle="-1" Hole="false" RenderFold="true" InnerBKScale="1">
+                    <Line MeshPointIndexes="5203/5359/5001"/>
+                </InternalShape>
+                <InternalShape FoldAngle="1" Hole="false" RenderFold="true" InnerBKScale="1">
+                    <Line MeshPointIndexes="5201/5360/5003"/>
+                </InternalShape>
+                <InternalShape FoldAngle="-1" Hole="false" RenderFold="true" InnerBKScale="1">
+                    <Line MeshPointIndexes="5199/5361/5005"/>
+                </InternalShape>
+                <InternalShape FoldAngle="1" Hole="false" RenderFold="true" InnerBKScale="1">
+                    <Line MeshPointIndexes="5197/5362/5007"/>
+                </InternalShape>
+                <InternalShape FoldAngle="-1" Hole="false" RenderFold="true" InnerBKScale="1">
+                    <Line MeshPointIndexes="5195/5363/5009"/>
+                </InternalShape>
+                <InternalShape FoldAngle="1" Hole="false" RenderFold="true" InnerBKScale="1">
+                    <Line MeshPointIndexes="5193/5364/5011"/>
+                </InternalShape>
+                <InternalShape FoldAngle="-1" Hole="false" RenderFold="true" InnerBKScale="1">
+                    <Line MeshPointIndexes="5191/5365/5013"/>
+                </InternalShape>
+                <InternalShape FoldAngle="1" Hole="false" RenderFold="true" InnerBKScale="1">
+                    <Line MeshPointIndexes="5189/5366/5015"/>
+                </InternalShape>
+                <InternalShape FoldAngle="-1" Hole="false" RenderFold="true" InnerBKScale="1">
+                    <Line MeshPointIndexes="5187/5367/5017"/>
+                </InternalShape>
+                <InternalShape FoldAngle="1" Hole="false" RenderFold="true" InnerBKScale="1">
+                    <Line MeshPointIndexes="5185/5368/5019"/>
+                </InternalShape>
+                <InternalShape FoldAngle="-1" Hole="false" RenderFold="true" InnerBKScale="1">
+                    <Line MeshPointIndexes="5183/5369/5021"/>
+                </InternalShape>
+                <InternalShape FoldAngle="1" Hole="false" RenderFold="true" InnerBKScale="1">
+                    <Line MeshPointIndexes="5181/5370/5023"/>
+                </InternalShape>
+                <InternalShape FoldAngle="-1" Hole="false" RenderFold="true" InnerBKScale="1">
+                    <Line MeshPointIndexes="5179/5371/5025"/>
+                </InternalShape>
+                <InternalShape FoldAngle="1" Hole="false" RenderFold="true" InnerBKScale="1">
+                    <Line MeshPointIndexes="5177/5372/5027"/>
+                </InternalShape>
+                <InternalShape FoldAngle="-1" Hole="false" RenderFold="true" InnerBKScale="1">
+                    <Line MeshPointIndexes="5175/5373/5029"/>
+                </InternalShape>
+                <InternalShape FoldAngle="1" Hole="false" RenderFold="true" InnerBKScale="1">
+                    <Line MeshPointIndexes="5173/5374/5031"/>
+                </InternalShape>
+                <InternalShape FoldAngle="-1" Hole="false" RenderFold="true" InnerBKScale="1">
+                    <Line MeshPointIndexes="5171/5375/5033"/>
+                </InternalShape>
+                <InternalShape FoldAngle="1" Hole="false" RenderFold="true" InnerBKScale="1">
+                    <Line MeshPointIndexes="5169/5376/5035"/>
+                </InternalShape>
+                <InternalShape FoldAngle="-1" Hole="false" RenderFold="true" InnerBKScale="1">
+                    <Line MeshPointIndexes="5167/5377/5037"/>
+                </InternalShape>
+                <InternalShape FoldAngle="1" Hole="false" RenderFold="true" InnerBKScale="1">
+                    <Line MeshPointIndexes="5165/5378/5039"/>
+                </InternalShape>
+                <InternalShape FoldAngle="-1" Hole="false" RenderFold="true" InnerBKScale="1">
+                    <Line MeshPointIndexes="5163/5379/5041"/>
+                </InternalShape>
+                <InternalShape FoldAngle="1" Hole="false" RenderFold="true" InnerBKScale="1">
+                    <Line MeshPointIndexes="5161/5380/5043"/>
+                </InternalShape>
+                <InternalShape FoldAngle="-1" Hole="false" RenderFold="true" InnerBKScale="1">
+                    <Line MeshPointIndexes="5159/5381/5045"/>
+                </InternalShape>
+                <InternalShape FoldAngle="1" Hole="false" RenderFold="true" InnerBKScale="1">
+                    <Line MeshPointIndexes="5157/5382/5047"/>
+                </InternalShape>
+                <InternalShape FoldAngle="-1" Hole="false" RenderFold="true" InnerBKScale="1">
+                    <Line MeshPointIndexes="5155/5383/5049"/>
+                </InternalShape>
+                <InternalShape FoldAngle="1" Hole="false" RenderFold="true" InnerBKScale="1">
+                    <Line MeshPointIndexes="5153/5384/5051"/>
+                </InternalShape>
+                <InternalShape FoldAngle="-1" Hole="false" RenderFold="true" InnerBKScale="1">
+                    <Line MeshPointIndexes="5151/5385/5053"/>
+                </InternalShape>
+                <InternalShape FoldAngle="1" Hole="false" RenderFold="true" InnerBKScale="1">
+                    <Line MeshPointIndexes="5149/5386/5055"/>
+                </InternalShape>
+                <InternalShape FoldAngle="-1" Hole="false" RenderFold="true" InnerBKScale="1">
+                    <Line MeshPointIndexes="5147/5387/5057"/>
+                </InternalShape>
+                <InternalShape FoldAngle="1" Hole="false" RenderFold="true" InnerBKScale="1">
+                    <Line MeshPointIndexes="5145/5388/5059"/>
+                </InternalShape>
+                <InternalShape FoldAngle="-1" Hole="false" RenderFold="true" InnerBKScale="1">
+                    <Line MeshPointIndexes="5143/5389/5061"/>
+                </InternalShape>
+                <InternalShape FoldAngle="1" Hole="false" RenderFold="true" InnerBKScale="1">
+                    <Line MeshPointIndexes="5141/5390/5063"/>
+                </InternalShape>
+                <InternalShape FoldAngle="-1" Hole="false" RenderFold="true" InnerBKScale="1">
+                    <Line MeshPointIndexes="5139/5391/5065"/>
+                </InternalShape>
+                <InternalShape FoldAngle="1" Hole="false" RenderFold="true" InnerBKScale="1">
+                    <Line MeshPointIndexes="5137/5392/5067"/>
+                </InternalShape>
+                <InternalShape FoldAngle="-1" Hole="false" RenderFold="true" InnerBKScale="1">
+                    <Line MeshPointIndexes="5135/5393/5069"/>
+                </InternalShape>
+                <InternalShape FoldAngle="1" Hole="false" RenderFold="true" InnerBKScale="1">
+                    <Line MeshPointIndexes="5133/5394/5071"/>
+                </InternalShape>
+                <InternalShape FoldAngle="-1" Hole="false" RenderFold="true" InnerBKScale="1">
+                    <Line MeshPointIndexes="5131/5395/5073"/>
+                </InternalShape>
+                <InternalShape FoldAngle="1" Hole="false" RenderFold="true" InnerBKScale="1">
+                    <Line MeshPointIndexes="5129/5396/5075"/>
+                </InternalShape>
+                <InternalShape FoldAngle="-1" Hole="false" RenderFold="true" InnerBKScale="1">
+                    <Line MeshPointIndexes="5127/5397/5077"/>
+                </InternalShape>
+                <InternalShape FoldAngle="1" Hole="false" RenderFold="true" InnerBKScale="1">
+                    <Line MeshPointIndexes="5125/5398/5079"/>
+                </InternalShape>
+                <InternalShape FoldAngle="-1" Hole="false" RenderFold="true" InnerBKScale="1">
+                    <Line MeshPointIndexes="5123/5399/5081"/>
+                </InternalShape>
+                <InternalShape FoldAngle="1" Hole="false" RenderFold="true" InnerBKScale="1">
+                    <Line MeshPointIndexes="5121/5400/5083"/>
+                </InternalShape>
+                <InternalShape FoldAngle="-1" Hole="false" RenderFold="true" InnerBKScale="1">
+                    <Line MeshPointIndexes="5119/5401/5085"/>
+                </InternalShape>
+                <InternalShape FoldAngle="1" Hole="false" RenderFold="true" InnerBKScale="1">
+                    <Line MeshPointIndexes="5117/5402/5087"/>
+                </InternalShape>
+                <InternalShape FoldAngle="-1" Hole="false" RenderFold="true" InnerBKScale="1">
+                    <Line MeshPointIndexes="5115/5403/5089"/>
+                </InternalShape>
+                <InternalShape FoldAngle="1" Hole="false" RenderFold="true" InnerBKScale="1">
+                    <Line MeshPointIndexes="5113/5404/5091"/>
+                </InternalShape>
+                <InternalShape FoldAngle="-1" Hole="false" RenderFold="true" InnerBKScale="1">
+                    <Line MeshPointIndexes="5111/5405/5093"/>
+                </InternalShape>
+                <InternalShape FoldAngle="1" Hole="false" RenderFold="true" InnerBKScale="1">
+                    <Line MeshPointIndexes="5109/5406/5095"/>
+                </InternalShape>
+                <InternalShape FoldAngle="-1" Hole="false" RenderFold="true" InnerBKScale="1">
+                    <Line MeshPointIndexes="5107/5407/5097"/>
+                </InternalShape>
+                <InternalShape FoldAngle="1" Hole="false" RenderFold="true" InnerBKScale="1">
+                    <Line MeshPointIndexes="5105/5408/5099"/>
+                </InternalShape>
+            </InternalShapeList>
+        </Mesh>
+        <Mesh MeshStartIndex="5809" MeshEndIndex="5843" PhysicalPropertyName="Default_0"/>
+        <Mesh MeshStartIndex="5844" MeshEndIndex="5974" PhysicalPropertyName="Default_0"/>
+        <Mesh MeshStartIndex="5975" MeshEndIndex="5988" PhysicalPropertyName="Default_5"/>
+        <Mesh MeshStartIndex="5989" MeshEndIndex="6007" PhysicalPropertyName="Default_6"/>
+        <Mesh MeshStartIndex="6008" MeshEndIndex="6020" PhysicalPropertyName="Default_5"/>
+        <Mesh MeshStartIndex="6021" MeshEndIndex="6045" PhysicalPropertyName="Default_2"/>
+        <Mesh MeshStartIndex="6046" MeshEndIndex="6070" PhysicalPropertyName="Default_2"/>
+        <Mesh MeshStartIndex="6071" MeshEndIndex="6626" PhysicalPropertyName="Default_2"/>
+        <Mesh MeshStartIndex="6627" MeshEndIndex="6656" PhysicalPropertyName="Default_0"/>
+        <Mesh MeshStartIndex="6657" MeshEndIndex="6684" PhysicalPropertyName="Default_0">
+            <InternalShapeList>
+                <InternalShape FoldAngle="0" Hole="false" RenderFold="true" InnerBKScale="1">
+                    <Line MeshPointIndexes="6666/6674/6675/6676/6658"/>
+                </InternalShape>
+            </InternalShapeList>
+        </Mesh>
+        <Mesh MeshStartIndex="6685" MeshEndIndex="6706" PhysicalPropertyName="Default_0">
+            <InternalShapeList>
+                <InternalShape FoldAngle="0" Hole="false" RenderFold="true" InnerBKScale="2">
+                    <Line MeshPointIndexes="6687/6698/6699/6693"/>
+                </InternalShape>
+            </InternalShapeList>
+        </Mesh>
+        <Mesh MeshStartIndex="6707" MeshEndIndex="6883" PhysicalPropertyName="Default_2"/>
+        <Mesh MeshStartIndex="6884" MeshEndIndex="7052" PhysicalPropertyName="Default_2"/>
+        <Mesh MeshStartIndex="7053" MeshEndIndex="7105" PhysicalPropertyName="Default_5">
+            <InternalShapeList>
+                <InternalShape FoldAngle="0" Hole="false" RenderFold="true" InnerBKScale="0.4">
+                    <Line MeshPointIndexes="7055/7080/7081/7082/7083/7084/7085/7066"/>
+                </InternalShape>
+            </InternalShapeList>
+        </Mesh>
+        <Mesh MeshStartIndex="7106" MeshEndIndex="7158" PhysicalPropertyName="Default_5">
+            <InternalShapeList>
+                <InternalShape FoldAngle="0" Hole="false" RenderFold="true" InnerBKScale="0.4">
+                    <Line MeshPointIndexes="7108/7133/7134/7135/7136/7137/7138/7119"/>
+                </InternalShape>
+            </InternalShapeList>
+        </Mesh>
+        <Mesh MeshStartIndex="7159" MeshEndIndex="7287" PhysicalPropertyName="Default_0"/>
+        <Mesh MeshStartIndex="7288" MeshEndIndex="7313" PhysicalPropertyName="Default_0"/>
+        <Mesh MeshStartIndex="7314" MeshEndIndex="7349" PhysicalPropertyName="Default_0"/>
+        <Mesh MeshStartIndex="7350" MeshEndIndex="7477" PhysicalPropertyName="Default_0"/>
+        <Mesh MeshStartIndex="7478" MeshEndIndex="7491" PhysicalPropertyName="Default_5"/>
+        <Mesh MeshStartIndex="7492" MeshEndIndex="7510" PhysicalPropertyName="Default_6"/>
+        <Mesh MeshStartIndex="7511" MeshEndIndex="7523" PhysicalPropertyName="Default_5"/>
+        <Mesh MeshStartIndex="7524" MeshEndIndex="7548" PhysicalPropertyName="Default_2"/>
+        <Mesh MeshStartIndex="7549" MeshEndIndex="7573" PhysicalPropertyName="Default_2"/>
+    </MeshList>
+    <SeamLinePairList>
+        <SeamLinePair FoldAngle="0" BKScale="1">
+            <SeamLine MeshPointIndexes ="33/32/31/30"/>
+            <SeamLine MeshPointIndexes ="58/59/60/61"/>
+        </SeamLinePair>
+        <SeamLinePair FoldAngle="0" BKScale="1">
+            <SeamLine MeshPointIndexes ="254/255/256/257"/>
+            <SeamLine MeshPointIndexes ="80/81/82/83"/>
+        </SeamLinePair>
+        <SeamLinePair FoldAngle="0" BKScale="1">
+            <SeamLine MeshPointIndexes ="290/289/288/287/286/285"/>
+            <SeamLine MeshPointIndexes ="116/115/114/113/112/111"/>
+        </SeamLinePair>
+        <SeamLinePair FoldAngle="0" BKScale="1">
+            <SeamLine MeshPointIndexes ="285/284/283/282/281/280/279/278"/>
+            <SeamLine MeshPointIndexes ="111/110/109/108/107/106/105/104"/>
+        </SeamLinePair>
+        <SeamLinePair FoldAngle="0" BKScale="1">
+            <SeamLine MeshPointIndexes ="83/84/85/86/87/88/89/90/91/92"/>
+            <SeamLine MeshPointIndexes ="257/258/259/260/261/262/263/264/265/266"/>
+        </SeamLinePair>
+        <SeamLinePair FoldAngle="0" BKScale="1">
+            <SeamLine MeshPointIndexes ="416/442/441/440/439/438/437/436/435/434/433/432/431"/>
+            <SeamLine MeshPointIndexes ="266/267/268/269/270/271/272/273/274/275/276/277/278"/>
+        </SeamLinePair>
+        <SeamLinePair FoldAngle="0" BKScale="1">
+            <SeamLine MeshPointIndexes ="104/103/102/101/100/99/98/97/96/95/94/93/92"/>
+            <SeamLine MeshPointIndexes ="469/495/494/493/492/491/490/489/488/487/486/485/484"/>
+        </SeamLinePair>
+        <SeamLinePair FoldAngle="0" BKScale="1">
+            <SeamLine MeshPointIndexes ="484/483/482/481/480"/>
+            <SeamLine MeshPointIndexes ="416/417/418/419/420"/>
+        </SeamLinePair>
+        <SeamLinePair FoldAngle="0" BKScale="1">
+            <SeamLine MeshPointIndexes ="431/430/429/428/427"/>
+            <SeamLine MeshPointIndexes ="469/470/471/472/473"/>
+        </SeamLinePair>
+        <SeamLinePair FoldAngle="0" BKScale="1">
+            <SeamLine MeshPointIndexes ="254/300/299/298/297/296/295/294/293/292/291/290"/>
+            <SeamLine MeshPointIndexes ="540/539/538/537/536/535/534/533/532/531/530/529"/>
+        </SeamLinePair>
+        <SeamLinePair FoldAngle="0" BKScale="1">
+            <SeamLine MeshPointIndexes ="655/654/653/652"/>
+            <SeamLine MeshPointIndexes ="1/2/3/4"/>
+        </SeamLinePair>
+        <SeamLinePair FoldAngle="0" BKScale="1">
+            <SeamLine MeshPointIndexes ="61/62/63/64"/>
+            <SeamLine MeshPointIndexes ="543/544/545/546"/>
+        </SeamLinePair>
+        <SeamLinePair FoldAngle="0" BKScale="1">
+            <SeamLine MeshPointIndexes ="752/753/754/755/756/757/758/759"/>
+            <SeamLine MeshPointIndexes ="1/21/20/19/18/17/16/15"/>
+        </SeamLinePair>
+        <SeamLinePair FoldAngle="0" BKScale="1">
+            <SeamLine MeshPointIndexes ="1342/1343/1344/1345/1346/1347/1348/1349/1350/1351/1352/1353/1354/1355/1356/1357/1358/1359/1267"/>
+            <SeamLine MeshPointIndexes ="759/760/761/762/763/764/765/766/767/768/769/770/771/772/773/774/775/776/678"/>
+        </SeamLinePair>
+        <SeamLinePair FoldAngle="0" BKScale="1">
+            <SeamLine MeshPointIndexes ="752/751/750/749/748/747/746/745/744/743/742/741/740/739/738/737/736/735/734"/>
+            <SeamLine MeshPointIndexes ="1921/1922/1923/1924/1925/1926/1927/1928/1929/1930/1931/1932/1933/1934/1935/1936/1937/1938/1846"/>
+        </SeamLinePair>
+        <SeamLinePair FoldAngle="0" BKScale="1">
+            <SeamLine MeshPointIndexes ="655/656/657/658/659/660/661"/>
+            <SeamLine MeshPointIndexes ="1921/1920/1919/1918/1917/1916/1915"/>
+        </SeamLinePair>
+        <SeamLinePair FoldAngle="0" BKScale="1">
+            <SeamLine MeshPointIndexes ="1915/1914/1913/1912/1911/1910/1909/1908/1907/1906/1905/1904/1903/1902/1901/1900/1899/1898/1897/1896/1895/1894"/>
+            <SeamLine MeshPointIndexes ="2556/2555/2554/2553/2552/2551/2550/2549/2548/2547/2546/2545/2544/2543/2542/2541/2540/2539/2538/2537/2536/2535"/>
+        </SeamLinePair>
+        <SeamLinePair FoldAngle="0" BKScale="1">
+            <SeamLine MeshPointIndexes ="2562/2563/2564/2565/2566/2567/2568/2569/2570/2571/2572/2573/2574/2575/2576/2577/2578/2579/2483"/>
+            <SeamLine MeshPointIndexes ="1335/1334/1333/1332/1331/1330/1329/1328/1327/1326/1325/1324/1323/1322/1321/1320/1319/1318/1317"/>
+        </SeamLinePair>
+        <SeamLinePair FoldAngle="0" BKScale="1">
+            <SeamLine MeshPointIndexes ="522/564/563/562/561/560/559/558"/>
+            <SeamLine MeshPointIndexes ="652/669/668/667/666/665/664/663"/>
+        </SeamLinePair>
+        <SeamLinePair FoldAngle="0" BKScale="1">
+            <SeamLine MeshPointIndexes ="3577/3576/3575/3574/3573/3572"/>
+            <SeamLine MeshPointIndexes ="3681/3682/3683/3684/3685/3686"/>
+        </SeamLinePair>
+        <SeamLinePair FoldAngle="0" BKScale="1">
+            <SeamLine MeshPointIndexes ="3715/3714/3713/3712/3711/3710/3709/3708"/>
+            <SeamLine MeshPointIndexes ="3542/3543/3544/3545/3546/3547/3548/3549"/>
+        </SeamLinePair>
+        <SeamLinePair FoldAngle="0" BKScale="1">
+            <SeamLine MeshPointIndexes ="3810/3811/3812/3813/3814/3815/3816/3817"/>
+            <SeamLine MeshPointIndexes ="3916/3917/3918/3919/3920/3921/3922/3923"/>
+        </SeamLinePair>
+        <SeamLinePair FoldAngle="0" BKScale="1">
+            <SeamLine MeshPointIndexes ="3934/3933/3932/3931/3930/3929/3928/3927/3926"/>
+            <SeamLine MeshPointIndexes ="3136/3211/3210/3209/3208/3207/3206/3205/3204"/>
+        </SeamLinePair>
+        <SeamLinePair FoldAngle="0" BKScale="1">
+            <SeamLine MeshPointIndexes ="4097/4096/4095/4094/4093/4092/4091/4090/4089/4088"/>
+            <SeamLine MeshPointIndexes ="4127/4203/4202/4201/4200/4199/4198/4197/4196/4195"/>
+        </SeamLinePair>
+        <SeamLinePair FoldAngle="0" BKScale="1">
+            <SeamLine MeshPointIndexes ="4078/4079/4080/4081/4082/4083/4084/4085"/>
+            <SeamLine MeshPointIndexes ="3963/3964/3965/3966/3967/3968/3969/3970"/>
+        </SeamLinePair>
+        <SeamLinePair FoldAngle="0" BKScale="1">
+            <SeamLine MeshPointIndexes ="3810/3851/3850/3849/3848/3847/3846/3845/3844/3843/3842/3841"/>
+            <SeamLine MeshPointIndexes ="3549/3550/3551/3552/3553/3554/3555/3556/3557/3558/3559/3560"/>
+        </SeamLinePair>
+        <SeamLinePair FoldAngle="0" BKScale="1">
+            <SeamLine MeshPointIndexes ="3963/4003/4002/4001/4000/3999/3998/3997/3996/3995/3994/3993"/>
+            <SeamLine MeshPointIndexes ="3572/3571/3570/3569/3568/3567/3566/3565/3564/3563/3562/3561"/>
+        </SeamLinePair>
+        <SeamLinePair FoldAngle="0" BKScale="1">
+            <SeamLine MeshPointIndexes ="3708/3707/3706/3705/3704/3703/3702/3701"/>
+            <SeamLine MeshPointIndexes ="3916/3940/3939/3938/3937/3936/3935/3934"/>
+        </SeamLinePair>
+        <SeamLinePair FoldAngle="0" BKScale="1">
+            <SeamLine MeshPointIndexes ="3701/3700/3699/3698/3697/3696/3695/3694"/>
+            <SeamLine MeshPointIndexes ="3136/3137/3138/3139/3140/3141/3142/3143"/>
+        </SeamLinePair>
+        <SeamLinePair FoldAngle="0" BKScale="1">
+            <SeamLine MeshPointIndexes ="4078/4104/4103/4102/4101/4100/4099/4098/4097"/>
+            <SeamLine MeshPointIndexes ="3686/3687/3688/3689/3690/3691/3692/3693/3694"/>
+        </SeamLinePair>
+        <SeamLinePair FoldAngle="0" BKScale="1">
+            <SeamLine MeshPointIndexes ="4127/4128/4129/4130/4131/4132/4133/4134"/>
+            <SeamLine MeshPointIndexes ="3694/3695/3696/3697/3698/3699/3700/3701"/>
+        </SeamLinePair>
+        <SeamLinePair FoldAngle="0" BKScale="1">
+            <SeamLine MeshPointIndexes ="4545/4572/4571/4570/4569/4568/4567/4566/4565/4564/4563/4562"/>
+            <SeamLine MeshPointIndexes ="3549/3550/3551/3552/3553/3554/3555/3556/3557/3558/3559/3560"/>
+        </SeamLinePair>
+        <SeamLinePair FoldAngle="0" BKScale="1">
+            <SeamLine MeshPointIndexes ="4650/4651/4652/4653/4654/4655/4656/4657/4658/4659/4660/4633"/>
+            <SeamLine MeshPointIndexes ="3561/3562/3563/3564/3565/3566/3567/3568/3569/3570/3571/3572"/>
+        </SeamLinePair>
+        <SeamLinePair FoldAngle="0" BKScale="1">
+            <SeamLine MeshPointIndexes ="4809/4836/4835/4834/4833/4832/4831/4830/4829/4828/4827/4826"/>
+            <SeamLine MeshPointIndexes ="3686/3687/3688/3689/3690/3691/3692/3693/3694/3695/3696/3697"/>
+        </SeamLinePair>
+        <SeamLinePair FoldAngle="0" BKScale="1">
+            <SeamLine MeshPointIndexes ="4738/4739/4740/4741/4742/4743/4744/4745/4746/4747/4748/4721"/>
+            <SeamLine MeshPointIndexes ="3708/3707/3706/3705/3704/3703/3702/3701/3700/3699/3698/3697"/>
+        </SeamLinePair>
+        <SeamLinePair FoldAngle="0" BKScale="1">
+            <SeamLine MeshPointIndexes ="4826/4825/4824/4823"/>
+            <SeamLine MeshPointIndexes ="4721/4722/4723/4724"/>
+        </SeamLinePair>
+        <SeamLinePair FoldAngle="0" BKScale="1">
+            <SeamLine MeshPointIndexes ="4545/4546/4547/4548"/>
+            <SeamLine MeshPointIndexes ="4738/4737/4736/4735"/>
+        </SeamLinePair>
+        <SeamLinePair FoldAngle="0" BKScale="1">
+            <SeamLine MeshPointIndexes ="4809/4810/4811/4812"/>
+            <SeamLine MeshPointIndexes ="4633/4634/4635/4636"/>
+        </SeamLinePair>
+        <SeamLinePair FoldAngle="0" BKScale="1">
+            <SeamLine MeshPointIndexes ="5257/5258/5259/5260/5261/5262/5263/5264/5265/5266/5267/5268/5269/5270/5271/5272/5273/5274/5275/5276/5277/5278/5279/5280/5281/5282/5283/5284/5285/5286/5287/5288/5289/5290/5291/5292/5293/5294/5295/5296/5297/5298/5299/5300/5301/5302/5303/5304/5305/5306/5307/5308/4897"/>
+            <SeamLine MeshPointIndexes ="2483/2484/2485/2486/2487/2488/2489/2490/2491/2492/2493/2494/2495/2496/2497/2498/2499/2500/2501/2502/2503/2504/2505/2506/2507/2508/2509/2510/2511/2512/2513/2514/2515/2516/2517/2518/2519/2520/2521/2522/2523/2524/2525/2526/2527/2528/2529/2530/2531/2532/2533/2534/2535"/>
+        </SeamLinePair>
+        <SeamLinePair FoldAngle="0" BKScale="1">
+            <SeamLine MeshPointIndexes ="5207/5208/5209/5210/5211/5212/5213/5214/5215/5216/5217/5218/5219/5220/5221/5222/5223/5224/5225/5226/5227/5228/5229/5230/5231/5232/5233/5234/5235/5236/5237/5238/5239/5240/5241/5242/5243/5244/5245/5246/5247/5248/5249/5250/5251/5252/5253/5254/5255/5256/5257"/>
+            <SeamLine MeshPointIndexes ="1267/1268/1269/1270/1271/1272/1273/1274/1275/1276/1277/1278/1279/1280/1281/1282/1283/1284/1285/1286/1287/1288/1289/1290/1291/1292/1293/1294/1295/1296/1297/1298/1299/1300/1301/1302/1303/1304/1305/1306/1307/1308/1309/1310/1311/1312/1313/1314/1315/1316/1317"/>
+        </SeamLinePair>
+        <SeamLinePair FoldAngle="0" BKScale="1">
+            <SeamLine MeshPointIndexes ="5151/5150/5149/5148/5147/5146/5145/5144/5143/5142/5141/5140/5139/5138/5137/5136/5135/5134/5133/5132/5131/5130/5129/5128/5127/5126/5125/5124/5123/5122/5121/5120/5119/5118/5117/5116/5115/5114/5113/5112/5111/5110/5109/5108/5107/5106/5105/5104/5103"/>
+            <SeamLine MeshPointIndexes ="1846/1847/1848/1849/1850/1851/1852/1853/1854/1855/1856/1857/1858/1859/1860/1861/1862/1863/1864/1865/1866/1867/1868/1869/1870/1871/1872/1873/1874/1875/1876/1877/1878/1879/1880/1881/1882/1883/1884/1885/1886/1887/1888/1889/1890/1891/1892/1893/1894"/>
+        </SeamLinePair>
+        <SeamLinePair FoldAngle="0" BKScale="1">
+            <SeamLine MeshPointIndexes ="5207/5206/5205/5204/5203/5202/5201/5200/5199/5198/5197/5196/5195/5194/5193/5192/5191/5190/5189/5188/5187/5186/5185/5184/5183/5182/5181/5180/5179/5178/5177/5176/5175/5174/5173/5172/5171/5170/5169/5168/5167/5166/5165/5164/5163/5162/5161/5160/5159/5158/5157/5156/5155/5154/5153/5152/5151"/>
+            <SeamLine MeshPointIndexes ="678/679/680/681/682/683/684/685/686/687/688/689/690/691/692/693/694/695/696/697/698/699/700/701/702/703/704/705/706/707/708/709/710/711/712/713/714/715/716/717/718/719/720/721/722/723/724/725/726/727/728/729/730/731/732/733/734"/>
+        </SeamLinePair>
+        <SeamLinePair FoldAngle="0" BKScale="1">
+            <SeamLine MeshPointIndexes ="80/128/127/126/125/124"/>
+            <SeamLine MeshPointIndexes ="5814/5813/5812/5811/5810/5809"/>
+        </SeamLinePair>
+        <SeamLinePair FoldAngle="0" BKScale="1">
+            <SeamLine MeshPointIndexes ="118/117/116"/>
+            <SeamLine MeshPointIndexes ="5872/5871/5870"/>
+        </SeamLinePair>
+        <SeamLinePair FoldAngle="0" BKScale="1">
+            <SeamLine MeshPointIndexes ="543/542/541/540"/>
+            <SeamLine MeshPointIndexes ="5817/5816/5815/5814"/>
+        </SeamLinePair>
+        <SeamLinePair FoldAngle="0" BKScale="1">
+            <SeamLine MeshPointIndexes ="529/528/527/526/525/524/523/522"/>
+            <SeamLine MeshPointIndexes ="5870/5869/5868/5867/5866/5865/5864/5863"/>
+        </SeamLinePair>
+        <SeamLinePair FoldAngle="0" BKScale="1">
+            <SeamLine MeshPointIndexes ="5863/5862/5861/5860/5859/5858/5857/5856/5855/5854"/>
+            <SeamLine MeshPointIndexes ="4/5/6/7/8/9/10/11/12/13"/>
+        </SeamLinePair>
+        <SeamLinePair FoldAngle="0" BKScale="1">
+            <SeamLine MeshPointIndexes ="30/46/45/44/43/42/41"/>
+            <SeamLine MeshPointIndexes ="5817/5818/5819/5820/5821/5822/5823"/>
+        </SeamLinePair>
+        <SeamLinePair FoldAngle="0" BKScale="1">
+            <SeamLine MeshPointIndexes ="5983/5984/5985/5986/5987/5988"/>
+            <SeamLine MeshPointIndexes ="5994/5993/5992/5991/5990/5989"/>
+        </SeamLinePair>
+        <SeamLinePair FoldAngle="0" BKScale="1">
+            <SeamLine MeshPointIndexes ="5996/5997/5998/5999/6000/6001"/>
+            <SeamLine MeshPointIndexes ="6013/6012/6011/6010/6009/6008"/>
+        </SeamLinePair>
+        <SeamLinePair FoldAngle="0" BKScale="1">
+            <SeamLine MeshPointIndexes ="6015/6016/6017/6018/6019/6020"/>
+            <SeamLine MeshPointIndexes ="5809/5829/5828/5827/5826/5825"/>
+        </SeamLinePair>
+        <SeamLinePair FoldAngle="0" BKScale="1">
+            <SeamLine MeshPointIndexes ="5981/5980/5979/5978/5977/5976/5975"/>
+            <SeamLine MeshPointIndexes ="5872/5873/5874/5875/5876/5877/5844"/>
+        </SeamLinePair>
+        <SeamLinePair FoldAngle="0" BKScale="1">
+            <SeamLine MeshPointIndexes ="120/121/122"/>
+            <SeamLine MeshPointIndexes ="5994/5995/5996"/>
+        </SeamLinePair>
+        <SeamLinePair FoldAngle="0" BKScale="1">
+            <SeamLine MeshPointIndexes ="5981/5982/5983"/>
+            <SeamLine MeshPointIndexes ="118/119/120"/>
+        </SeamLinePair>
+        <SeamLinePair FoldAngle="0" BKScale="1">
+            <SeamLine MeshPointIndexes ="122/123/124"/>
+            <SeamLine MeshPointIndexes ="6013/6014/6015"/>
+        </SeamLinePair>
+        <SeamLinePair FoldAngle="0" BKScale="1">
+            <SeamLine MeshPointIndexes ="6057/6058/6059/6060/6061/6062/6063/6046"/>
+            <SeamLine MeshPointIndexes ="482/501/500/499/498/497/496/471"/>
+        </SeamLinePair>
+        <SeamLinePair FoldAngle="0" BKScale="1">
+            <SeamLine MeshPointIndexes ="6055/6054/6053/6052/6051/6050/6049/6048"/>
+            <SeamLine MeshPointIndexes ="480/479/478/477/476/475/474/473"/>
+        </SeamLinePair>
+        <SeamLinePair FoldAngle="0" BKScale="1">
+            <SeamLine MeshPointIndexes ="6021/6038/6037/6036/6035/6034/6033/6032"/>
+            <SeamLine MeshPointIndexes ="418/443/444/445/446/447/448/429"/>
+        </SeamLinePair>
+        <SeamLinePair FoldAngle="0" BKScale="1">
+            <SeamLine MeshPointIndexes ="6023/6024/6025/6026/6027/6028/6029/6030"/>
+            <SeamLine MeshPointIndexes ="420/421/422/423/424/425/426/427"/>
+        </SeamLinePair>
+        <SeamLinePair FoldAngle="0" BKScale="1">
+            <SeamLine MeshPointIndexes ="6057/6056/6055"/>
+            <SeamLine MeshPointIndexes ="6021/6022/6023"/>
+        </SeamLinePair>
+        <SeamLinePair FoldAngle="0" BKScale="1">
+            <SeamLine MeshPointIndexes ="6032/6031/6030"/>
+            <SeamLine MeshPointIndexes ="6046/6047/6048"/>
+        </SeamLinePair>
+        <SeamLinePair FoldAngle="0" BKScale="1">
+            <SeamLine MeshPointIndexes ="6071/6450/6449/6448/6447/6446/6445/6444/6443/6442/6441/6440/6439/6438/6437/6436/6435/6434/6433/6432/6431/6430/6429/6428/6427/6426/6425/6424/6423/6422/6421/6420/6419/6418/6417/6416/6415/6414/6413/6412/6411/6410/6409/6408/6407/6406/6405/6404/6403/6402/6401/6400/6399/6398/6397/6396/6395/6394/6393/6392/6391/6390/6389/6388/6387/6386/6385/6384/6383/6382/6381/6380/6379/6378/6377/6376/6375/6374/6373/6372/6371/6370/6369/6368/6367/6366/6365/6364/6363/6362/6361/6360/6359/6358/6357/6356/6355/6354/6353/6352/6351/6350/6349/6348/6347/6346/6345/6344/6343/6342/6341/6340/6339/6338/6337/6336/6335/6334/6333/6332/6331/6330/6329/6328/6327/6326/6325/6324/6323/6322/6321/6320/6319/6318/6317/6316/6315/6314/6313/6312/6311/6310/6309/6308/6307/6306/6305/6304/6303/6302/6301/6300/6299/6298/6297/6296/6295/6294/6293/6292/6291/6290/6289/6288/6287/6286/6285/6284/6283/6282/6281/6280/6279/6278/6277/6276/6275/6274/6273/6272/6271/6270/6269/6268/6267/6266/6265/6264/6263/6262/6261/6260/6259/6258/6257/6256/6255/6254/6253/6252/6251/6250/6249"/>
+            <SeamLine MeshPointIndexes ="4899/4900/4901/4902/4903/4904/4905/4906/4907/4908/4909/4910/4911/4912/4913/4914/4915/4916/4917/4918/4919/4920/4921/4922/4923/4924/4925/4926/4927/4928/4929/4930/4931/4932/4933/4934/4935/4936/4937/4938/4939/4940/4941/4942/4943/4944/4945/4946/4947/4948/4949/4950/4951/4952/4953/4954/4955/4956/4957/4958/4959/4960/4961/4962/4963/4964/4965/4966/4967/4968/4969/4970/4971/4972/4973/4974/4975/4976/4977/4978/4979/4980/4981/4982/4983/4984/4985/4986/4987/4988/4989/4990/4991/4992/4993/4994/4995/4996/4997/4998/4999/5000/5001/5002/5003/5004/5005/5006/5007/5008/5009/5010/5011/5012/5013/5014/5015/5016/5017/5018/5019/5020/5021/5022/5023/5024/5025/5026/5027/5028/5029/5030/5031/5032/5033/5034/5035/5036/5037/5038/5039/5040/5041/5042/5043/5044/5045/5046/5047/5048/5049/5050/5051/5052/5053/5054/5055/5056/5057/5058/5059/5060/5061/5062/5063/5064/5065/5066/5067/5068/5069/5070/5071/5072/5073/5074/5075/5076/5077/5078/5079/5080/5081/5082/5083/5084/5085/5086/5087/5088/5089/5090/5091/5092/5093/5094/5095/5096/5097/5098/5099/5100/5101"/>
+        </SeamLinePair>
+        <SeamLinePair FoldAngle="0" BKScale="1">
+            <SeamLine MeshPointIndexes ="6660/6659/6658/6657"/>
+            <SeamLine MeshPointIndexes ="6685/6686/6687/6688"/>
+        </SeamLinePair>
+        <SeamLinePair FoldAngle="0" BKScale="1">
+            <SeamLine MeshPointIndexes ="6884/6885/6886/6887"/>
+            <SeamLine MeshPointIndexes ="6707/6708/6709/6710"/>
+        </SeamLinePair>
+        <SeamLinePair FoldAngle="0" BKScale="1">
+            <SeamLine MeshPointIndexes ="6920/6919/6918/6917/6916/6915"/>
+            <SeamLine MeshPointIndexes ="6743/6742/6741/6740/6739/6738"/>
+        </SeamLinePair>
+        <SeamLinePair FoldAngle="0" BKScale="1">
+            <SeamLine MeshPointIndexes ="6915/6914/6913/6912/6911/6910/6909/6908"/>
+            <SeamLine MeshPointIndexes ="6738/6737/6736/6735/6734/6733/6732/6731"/>
+        </SeamLinePair>
+        <SeamLinePair FoldAngle="0" BKScale="1">
+            <SeamLine MeshPointIndexes ="6710/6711/6712/6713/6714/6715/6716/6717/6718/6719"/>
+            <SeamLine MeshPointIndexes ="6887/6888/6889/6890/6891/6892/6893/6894/6895/6896"/>
+        </SeamLinePair>
+        <SeamLinePair FoldAngle="0" BKScale="1">
+            <SeamLine MeshPointIndexes ="7053/7079/7078/7077/7076/7075/7074/7073/7072/7071/7070/7069/7068"/>
+            <SeamLine MeshPointIndexes ="6896/6897/6898/6899/6900/6901/6902/6903/6904/6905/6906/6907/6908"/>
+        </SeamLinePair>
+        <SeamLinePair FoldAngle="0" BKScale="1">
+            <SeamLine MeshPointIndexes ="6731/6730/6729/6728/6727/6726/6725/6724/6723/6722/6721/6720/6719"/>
+            <SeamLine MeshPointIndexes ="7106/7132/7131/7130/7129/7128/7127/7126/7125/7124/7123/7122/7121"/>
+        </SeamLinePair>
+        <SeamLinePair FoldAngle="0" BKScale="1">
+            <SeamLine MeshPointIndexes ="7121/7120/7119/7118/7117"/>
+            <SeamLine MeshPointIndexes ="7053/7054/7055/7056/7057"/>
+        </SeamLinePair>
+        <SeamLinePair FoldAngle="0" BKScale="1">
+            <SeamLine MeshPointIndexes ="7068/7067/7066/7065/7064"/>
+            <SeamLine MeshPointIndexes ="7106/7107/7108/7109/7110"/>
+        </SeamLinePair>
+        <SeamLinePair FoldAngle="0" BKScale="1">
+            <SeamLine MeshPointIndexes ="6884/6930/6929/6928/6927/6926/6925/6924/6923/6922/6921/6920"/>
+            <SeamLine MeshPointIndexes ="7177/7176/7175/7174/7173/7172/7171/7170/7169/7168/7167/7166"/>
+        </SeamLinePair>
+        <SeamLinePair FoldAngle="0" BKScale="1">
+            <SeamLine MeshPointIndexes ="7291/7290/7289/7288"/>
+            <SeamLine MeshPointIndexes ="6627/6628/6629/6630"/>
+        </SeamLinePair>
+        <SeamLinePair FoldAngle="0" BKScale="1">
+            <SeamLine MeshPointIndexes ="6688/6689/6690/6691"/>
+            <SeamLine MeshPointIndexes ="7180/7181/7182/7183"/>
+        </SeamLinePair>
+        <SeamLinePair FoldAngle="0" BKScale="1">
+            <SeamLine MeshPointIndexes ="7159/7201/7200/7199/7198/7197/7196/7195"/>
+            <SeamLine MeshPointIndexes ="7288/7305/7304/7303/7302/7301/7300/7299"/>
+        </SeamLinePair>
+        <SeamLinePair FoldAngle="0" BKScale="1">
+            <SeamLine MeshPointIndexes ="6707/6755/6754/6753/6752/6751"/>
+            <SeamLine MeshPointIndexes ="7319/7318/7317/7316/7315/7314"/>
+        </SeamLinePair>
+        <SeamLinePair FoldAngle="0" BKScale="1">
+            <SeamLine MeshPointIndexes ="6745/6744/6743"/>
+            <SeamLine MeshPointIndexes ="7378/7377/7376"/>
+        </SeamLinePair>
+        <SeamLinePair FoldAngle="0" BKScale="1">
+            <SeamLine MeshPointIndexes ="7180/7179/7178/7177"/>
+            <SeamLine MeshPointIndexes ="7322/7321/7320/7319"/>
+        </SeamLinePair>
+        <SeamLinePair FoldAngle="0" BKScale="1">
+            <SeamLine MeshPointIndexes ="7166/7165/7164/7163/7162/7161/7160/7159"/>
+            <SeamLine MeshPointIndexes ="7376/7375/7374/7373/7372/7371/7370/7369"/>
+        </SeamLinePair>
+        <SeamLinePair FoldAngle="0" BKScale="1">
+            <SeamLine MeshPointIndexes ="7369/7368/7367/7366/7365/7364/7363/7362/7361/7360"/>
+            <SeamLine MeshPointIndexes ="6630/6631/6632/6633/6634/6635/6636/6637/6638/6639"/>
+        </SeamLinePair>
+        <SeamLinePair FoldAngle="0" BKScale="1">
+            <SeamLine MeshPointIndexes ="6657/6673/6672/6671/6670/6669/6668"/>
+            <SeamLine MeshPointIndexes ="7322/7323/7324/7325/7326/7327/7328"/>
+        </SeamLinePair>
+        <SeamLinePair FoldAngle="0" BKScale="1">
+            <SeamLine MeshPointIndexes ="7486/7487/7488/7489/7490/7491"/>
+            <SeamLine MeshPointIndexes ="7497/7496/7495/7494/7493/7492"/>
+        </SeamLinePair>
+        <SeamLinePair FoldAngle="0" BKScale="1">
+            <SeamLine MeshPointIndexes ="7499/7500/7501/7502/7503/7504"/>
+            <SeamLine MeshPointIndexes ="7516/7515/7514/7513/7512/7511"/>
+        </SeamLinePair>
+        <SeamLinePair FoldAngle="0" BKScale="1">
+            <SeamLine MeshPointIndexes ="7518/7519/7520/7521/7522/7523"/>
+            <SeamLine MeshPointIndexes ="7314/7334/7333/7332/7331/7330"/>
+        </SeamLinePair>
+        <SeamLinePair FoldAngle="0" BKScale="1">
+            <SeamLine MeshPointIndexes ="7484/7483/7482/7481/7480/7479/7478"/>
+            <SeamLine MeshPointIndexes ="7378/7379/7380/7381/7382/7383/7350"/>
+        </SeamLinePair>
+        <SeamLinePair FoldAngle="0" BKScale="1">
+            <SeamLine MeshPointIndexes ="6747/6748/6749"/>
+            <SeamLine MeshPointIndexes ="7497/7498/7499"/>
+        </SeamLinePair>
+        <SeamLinePair FoldAngle="0" BKScale="1">
+            <SeamLine MeshPointIndexes ="7484/7485/7486"/>
+            <SeamLine MeshPointIndexes ="6745/6746/6747"/>
+        </SeamLinePair>
+        <SeamLinePair FoldAngle="0" BKScale="1">
+            <SeamLine MeshPointIndexes ="6749/6750/6751"/>
+            <SeamLine MeshPointIndexes ="7516/7517/7518"/>
+        </SeamLinePair>
+        <SeamLinePair FoldAngle="0" BKScale="1">
+            <SeamLine MeshPointIndexes ="7560/7561/7562/7563/7564/7565/7566/7549"/>
+            <SeamLine MeshPointIndexes ="7119/7138/7137/7136/7135/7134/7133/7108"/>
+        </SeamLinePair>
+        <SeamLinePair FoldAngle="0" BKScale="1">
+            <SeamLine MeshPointIndexes ="7558/7557/7556/7555/7554/7553/7552/7551"/>
+            <SeamLine MeshPointIndexes ="7117/7116/7115/7114/7113/7112/7111/7110"/>
+        </SeamLinePair>
+        <SeamLinePair FoldAngle="0" BKScale="1">
+            <SeamLine MeshPointIndexes ="7524/7541/7540/7539/7538/7537/7536/7535"/>
+            <SeamLine MeshPointIndexes ="7055/7080/7081/7082/7083/7084/7085/7066"/>
+        </SeamLinePair>
+        <SeamLinePair FoldAngle="0" BKScale="1">
+            <SeamLine MeshPointIndexes ="7526/7527/7528/7529/7530/7531/7532/7533"/>
+            <SeamLine MeshPointIndexes ="7057/7058/7059/7060/7061/7062/7063/7064"/>
+        </SeamLinePair>
+        <SeamLinePair FoldAngle="0" BKScale="1">
+            <SeamLine MeshPointIndexes ="7560/7559/7558"/>
+            <SeamLine MeshPointIndexes ="7524/7525/7526"/>
+        </SeamLinePair>
+        <SeamLinePair FoldAngle="0" BKScale="1">
+            <SeamLine MeshPointIndexes ="7535/7534/7533"/>
+            <SeamLine MeshPointIndexes ="7549/7550/7551"/>
+        </SeamLinePair>
+        <SeamLinePair FoldAngle="0" BKScale="1">
+            <SeamLine MeshPointIndexes ="546/547/548/549/550/551/552/553/554/555/556/557/558"/>
+            <SeamLine MeshPointIndexes ="7183/7184/7185/7186/7187/7188/7189/7190/7191/7192/7193/7194/7195"/>
+        </SeamLinePair>
+        <SeamLinePair FoldAngle="0" BKScale="1">
+            <SeamLine MeshPointIndexes ="663/662/661"/>
+            <SeamLine MeshPointIndexes ="7299/7298/7297"/>
+        </SeamLinePair>
+        <SeamLinePair FoldAngle="0" BKScale="1">
+            <SeamLine MeshPointIndexes ="6639/6640/6641"/>
+            <SeamLine MeshPointIndexes ="13/14/15"/>
+        </SeamLinePair>
+        <SeamLinePair FoldAngle="0" BKScale="1">
+            <SeamLine MeshPointIndexes ="7350/7351/7352/7353/7354/7355/7356/7357/7358/7359/7360"/>
+            <SeamLine MeshPointIndexes ="5844/5845/5846/5847/5848/5849/5850/5851/5852/5853/5854"/>
+        </SeamLinePair>
+        <SeamLinePair FoldAngle="0" BKScale="1">
+            <SeamLine MeshPointIndexes ="7328/7329/7330"/>
+            <SeamLine MeshPointIndexes ="5823/5824/5825"/>
+        </SeamLinePair>
+        <SeamLinePair FoldAngle="0" BKScale="1">
+            <SeamLine MeshPointIndexes ="6664/6665/6666/6667/6668"/>
+            <SeamLine MeshPointIndexes ="37/38/39/40/41"/>
+        </SeamLinePair>
+        <SeamLinePair FoldAngle="0" BKScale="1">
+            <SeamLine MeshPointIndexes ="7504/7505/7492"/>
+            <SeamLine MeshPointIndexes ="6001/6002/5989"/>
+        </SeamLinePair>
+        <SeamLinePair FoldAngle="0" BKScale="1">
+            <SeamLine MeshPointIndexes ="7523/7511"/>
+            <SeamLine MeshPointIndexes ="6020/6008"/>
+        </SeamLinePair>
+        <SeamLinePair FoldAngle="0" BKScale="1">
+            <SeamLine MeshPointIndexes ="7491/7478"/>
+            <SeamLine MeshPointIndexes ="5988/5975"/>
+        </SeamLinePair>
+        <SeamLinePair FoldAngle="0" BKScale="1">
+            <SeamLine MeshPointIndexes ="68/67/66/65/64"/>
+            <SeamLine MeshPointIndexes ="6695/6694/6693/6692/6691"/>
+        </SeamLinePair>
+        <SeamLinePair FoldAngle="0" BKScale="1">
+            <SeamLine MeshPointIndexes ="2562/2561/2560/2559/2558/2557/2556"/>
+            <SeamLine MeshPointIndexes ="7291/7292/7293/7294/7295/7296/7297"/>
+        </SeamLinePair>
+        <SeamLinePair FoldAngle="0" BKScale="1">
+            <SeamLine MeshPointIndexes ="6627/6647/6646/6645/6644/6643/6642/6641"/>
+            <SeamLine MeshPointIndexes ="1335/1336/1337/1338/1339/1340/1341/1342"/>
+        </SeamLinePair>
+    </SeamLinePairList>
+    <PBRMaterial Opacity="100" Name="MANGAS_FRONT_2423">
+        <globalColor Name="(None)" R="255" G="255" B="255" Intensity="1"/>
+        <SpecularColor Shininess="23"/>
+    </PBRMaterial>
+    <PBRMaterial Opacity="100" Name="CINTURON_FRONT_2429">
+        <globalColor Name="(None)" R="108" G="58" B="51" Intensity="1"/>
+        <SpecularColor Shininess="28"/>
+    </PBRMaterial>
+    <PBRMaterial Opacity="100" Name="CUERO_FRONT_2453">
+        <globalColor Name="(None)" R="57" G="31" B="28" Intensity="1"/>
+        <SpecularColor Shininess="28"/>
+    </PBRMaterial>
+    <PBRMaterial Opacity="82" Name="TORSO OPACIDAD_FRONT_2447">
+        <globalColor Name="(None)" R="103" G="103" B="156" Intensity="1"/>
+        <SpecularColor Shininess="28"/>
+    </PBRMaterial>
+    <PBRMaterial Opacity="100" Name="FALDA_FRONT_2417">
+        <globalColor Name="(None)" R="95" G="143" B="191" Intensity="1"/>
+        <SpecularColor Shininess="28"/>
+    </PBRMaterial>
+    <PBRMaterial Opacity="100" Name="TORSO_FRONT_2411">
+        <globalColor Name="(None)" R="103" G="103" B="156" Intensity="1"/>
+        <SpecularColor Shininess="28"/>
+    </PBRMaterial>
+    <PBRMaterial Opacity="100" Name="BORDES_FRONT_2441">
+        <globalColor Name="(None)" R="73" G="65" B="108" Intensity="1"/>
+        <SpecularColor Shininess="28"/>
+    </PBRMaterial>
+    <PBRMaterial Opacity="93" Name="BORDE FALDA_FRONT_2435">
+        <globalColor Name="(None)" R="155" G="228" B="250" Intensity="1"/>
+        <SpecularColor Shininess="28"/>
+    </PBRMaterial>
+</MetaData>
