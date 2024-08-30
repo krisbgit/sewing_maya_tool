@@ -5,31 +5,74 @@ import maya.api.OpenMaya as om
 import maya.cmds as cmds
 import xml_parser
 
-class Pattern():
+class Edge():
+    
+    def __init__(self, corners, parent_piece, boundary_ref_edge):
+        self.corners = sorted(corners)
+        self.parent_piece = parent_piece
+        self.boundary_ref_edge = boundary_ref_edge
+        self.create_ref_edge()
+
+    def create_ref_edge(self):
+        for edge in self.boundary_ref_edge:
+            cmds.select(f"{self.parent_piece}.e[{edge}]", add=True)
+        cmds.polyToCurve(form=2, degree=1)
+        cmds.select(cl=True)
+    
+class Piece():
 
     def __init__(self, geometry, detection_degree_threshold, pattern_index, seam_info, global_vertex_range):
         self.geometry = geometry
         self.detection_degree_threshold = detection_degree_threshold
         self.pattern_index = pattern_index
         self.object = self.init_api_objects(geometry)
+        self.global_vertex_range = global_vertex_range
         self.border_edge = self.get_boundary_edges()
         self.vertices = self.get_corner_vertex_by_angle(self.border_edge)
-        self.min_vertex, self.max_vertex = self.find_min_max_vertices()
-        self.seams = self.find_seam_by_vertices(seam_info)
-        self.global_vertex_range = global_vertex_range
-        self.current_vertices = 0
-        self.create()
+        self.seam_info = seam_info
+        
+        self.edges = self.create_edge_list()
 
-    def find_seam_by_vertices(self, seam_info):
-        pattern_seams = []
-        for seam_dict in seam_info:
-            seam_vertices = seam_dict["start_line"]
-            for seam_vertex in seam_vertices:
-                if self.min_vertex < int(seam_vertex) < self.max_vertex:
-                    pattern_seams.append(seam_dict)
-                    break
-        return pattern_seams
+        self.create()
     
+    def create_edge_list(self):
+        edges = []
+        for index, corner in enumerate(self.vertices):
+            end_corner = int(self.format_vertex_index(text=corner)[-1])
+            start_corner = int(self.format_vertex_index(text=self.vertices[index-1])[-1])
+            edges.append(self.create_edge_object(corners=(start_corner, end_corner)))
+        return edges
+
+    def _get_vertex_range_from_edge(self):
+        edge_vertices = []
+        cmds.select(self.border_edge)
+        for vertex_info in cmds.polyInfo(ev=True):
+            vertices = re.findall("[\w]+", vertex_info)[2:-1]
+            for vertex in vertices:
+                edge_vertices.append(int(vertex))
+        cmds.select(cl=True)
+        return max(edge_vertices)
+
+    def create_edge_object(self, corners):
+        ref_edges = []
+        end_range= corners[0] if corners[0] != 0 else (self._get_vertex_range_from_edge() + 1)
+        start_range = corners[1] + 1
+        print(start_range, end_range)
+        for vtx in range(start_range, end_range):
+            cmds.select(f'{self.geometry}.vtx[{vtx}]')
+            ref_edges.extend(self.format_vertex_index(text=cmds.polyInfo(ve=True)[0])[2:])
+        
+        ref_edges = self.sort_boundary_ref_edge(ref_edges)
+        edge = Edge(parent_piece=self.geometry, corners=corners, boundary_ref_edge=ref_edges)
+        return edge
+
+    def sort_boundary_ref_edge(self, ref_edges):
+        boundary_ref_edges = []
+        for edge in list(set(ref_edges)):
+            if f"{self.geometry}.e[{edge}]" in self.border_edge:
+                boundary_ref_edges.append(int(edge))
+        return sorted(boundary_ref_edges)
+
     def find_min_max_vertices(self):
         return int(self.format_vertex_index(min(self.vertices))[2]), int(self.format_vertex_index(max(self.vertices))[2])
 
@@ -97,8 +140,6 @@ class Pattern():
         return object_corner_list
     
     def create(self):
-        # get the mesh vertex position
-        self.vertices = self.get_corner_vertex_by_angle(self.border_edge)
         
         polygon_points = []
         polygon_points_sorted = []
@@ -114,8 +155,6 @@ class Pattern():
 
         new_polygon_object.create(polygon_points, [len(polygon_points)], polygon_connects)
         new_polygon_object.updateSurface()
-        print(len(polygon_points))
-        self.current_vertices = len(polygon_points)
 
     def _get_boundary_polygons(self, object_name, object_mesh_component):
         object_num_polygons = object_mesh_component.numPolygons
@@ -143,7 +182,7 @@ class Pattern():
         return boundary_vertex_list
 
     def _calculate_vector_from_vertices(self, connected_border_edge, object_name):
-        start_vertex, end_vertex = self._set_start_end_vector_vertices(connected_border_edge, object_name)
+        start_vertex, end_vertex = self._set_start_end_vector_vertices(connected_border_edge)
         start_point = self.object.get("mesh_component").getPoint(int(start_vertex))
         end_point = self.object.get("mesh_component").getPoint(int(end_vertex))
         
@@ -164,7 +203,7 @@ class Pattern():
         cmds.select(cl=True)
         return connected_border_edges
 
-    def _set_start_end_vector_vertices(self, connected_border_edge, object_name):
+    def _set_start_end_vector_vertices(self, connected_border_edge):
         cmds.select(connected_border_edge)
         vector_vertices = re.findall("[\w]+", cmds.polyInfo(ev=True)[0])[2:-1]
         
@@ -174,7 +213,16 @@ class Pattern():
     def format_vertex_index(self, text):
         return re.findall(r"[\w]+", text)
 
-
+    def find_seam_by_vertices(self, seam_info, min_vtx, max_vtx):
+        pattern_seams = []
+        for seam_dict in seam_info:
+            seam_vertices = seam_dict["start_line"]
+            for seam_vertex in seam_vertices:
+                if min_vtx < int(seam_vertex) < max_vtx:
+                    pattern_seams.append(seam_dict)
+                    break
+        return pattern_seams
+    
 def sort_pieces_by_vertex_index():
     sorted_pieces = []
     for geo in cmds.ls(sl=True):
@@ -192,7 +240,7 @@ def create_pattern():
     for index, geometry in enumerate(cmds.ls(sl=True)):
         cmds.select(geometry)
         global_vertex_range += int(cmds.polyEvaluate(v=True))
-        piece = Pattern(geometry, detection_degree_threshold=50, pattern_index=index, seam_info=seam_info, global_vertex_range=global_vertex_range)
+        piece = Piece(geometry, detection_degree_threshold=50, pattern_index=index, seam_info=seam_info, global_vertex_range=global_vertex_range)
         pieces.append(piece)
     return pieces
 

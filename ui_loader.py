@@ -59,9 +59,14 @@ class Pattern_Widget(Sewing_maya_tool):
         for piece in self.pattern:
             piece_tree_item = QtWidgets.QTreeWidgetItem(self.ui.treeWidget)
             piece_tree_item.setText(0, f"piece_{piece.pattern_index:02d}")
-            piece_tree_item.setText(1, f"{piece.current_vertices}")
+            # piece_tree_item.setText(1, f"{piece.current_vertices}")
+            piece_tree_item.setText(1, f"{len(piece.vertices)}")
             piece_tree_item.setTextColor(0, QtGui.QColor("red"))
-            #self.ui.treeWidget.addTopLevelItem(piece)
+            for index, edge in enumerate(piece.edges):
+                edge_tree_child = QtWidgets.QTreeWidgetItem()
+                edge_tree_child.setText(0, f"edge_{index:02d}")
+                edge_tree_child.setText(1, str(piece.edges[index].boundary_ref_edge))
+                piece_tree_item.addChild(edge_tree_child)
 
 class Start_Widget(Sewing_maya_tool):
     def create_connections(self):
