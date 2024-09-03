@@ -32,14 +32,13 @@ class Piece():
         self.seam_info = seam_info
         
         self.edges = self.create_edge_list()
-
         self.create()
-    
+
     def create_edge_list(self):
         edges = []
         for index, corner in enumerate(self.vertices):
-            end_corner = int(self.format_vertex_index(text=corner)[-1])
-            start_corner = int(self.format_vertex_index(text=self.vertices[index-1])[-1])
+            start_corner = int(self.format_vertex_index(text=corner)[-1])
+            end_corner = int(self.format_vertex_index(text=self.vertices[index-1])[-1])
             edges.append(self.create_edge_object(corners=(start_corner, end_corner)))
         return edges
 
@@ -111,7 +110,6 @@ class Piece():
             # PolyInfo Output: ['FACE     82:    223    224    225 \n']
             # Regex Cleanup: ['FACE', '82', '223', '224', '225'] then Slice Array to Ignore first 2 indexes.
             polygon_edges = self.format_vertex_index(text=cmds.polyInfo(fe=True)[0])[2:]
-
             for polygon_edge in polygon_edges:
                 if object_mesh_component.edgeBorderInfo(int(polygon_edge)) == -2:
                     boundary_edge_list.append(f"{object_name}.e[{polygon_edge}]")
@@ -135,10 +133,17 @@ class Piece():
 
                 if math.degrees(corner_angle) > self.detection_degree_threshold:
                     if boundary_vertex not in object_corner_list:
+                        
                         object_corner_list.append(boundary_vertex)
 
-        return object_corner_list
-    
+        return self._sort_unformated(object_corner_list, object_name)
+
+    def _sort_unformated(self, list_to_sort, object_name):
+        sorted_elements = []
+        for element in list_to_sort:
+            sorted_elements.append(int(self.format_vertex_index(element)[-1]))
+        return [f"{object_name}.vtx[{element}]" for element in sorted(sorted_elements)]
+
     def create(self):
         
         polygon_points = []
@@ -146,7 +151,7 @@ class Piece():
         polygon_connects = []
         new_polygon_object = om.MFnMesh()
         for corner_vertex in self.vertices:
-            polygon_point = self.format_vertex_index(text=corner_vertex)[2]
+            polygon_point = self.format_vertex_index(text=corner_vertex)[-1]
             polygon_points_sorted.append(int(polygon_point))
 
         for index, sorted_vertex in enumerate(sorted(polygon_points_sorted)):
@@ -205,7 +210,7 @@ class Piece():
 
     def _set_start_end_vector_vertices(self, connected_border_edge):
         cmds.select(connected_border_edge)
-        vector_vertices = re.findall("[\w]+", cmds.polyInfo(ev=True)[0])[2:-1]
+        vector_vertices = self.format_vertex_index(cmds.polyInfo(ev=True)[0])[2:-1]
         
         cmds.select(cl=True)
         return vector_vertices[0], vector_vertices[1]
