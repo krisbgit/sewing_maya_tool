@@ -10,8 +10,10 @@ I noticed that make the vertices from different pieces in the pattern takes a lo
 
 ## Development
 
-*Last update: 08/23*
+*Last update: 09/04/23*
+I created a curve for each edge to work like a "live surface", making all the vertices moving inside the curve range. Also I'll take one day of the week to clean up the code and organice the files into directories.
 
+### Initial Concept
 ![Untitled (4)](https://github.com/user-attachments/assets/0c7a5e04-dcfc-43b2-8a69-8c9bf4c8cab8)
 ![Untitled (9)](https://github.com/user-attachments/assets/49b4f258-99a4-4743-a109-ca232e873d35)
 ![Untitled (7)](https://github.com/user-attachments/assets/c45220c4-32a1-4543-819b-f9892241fbae)
@@ -19,7 +21,7 @@ I noticed that make the vertices from different pieces in the pattern takes a lo
 
 ## TO DO
 
-- [ ] Assign edge relationships from the original pattern to the new one
+- [ ] Snap vertices to the edge
 - [ ] Make vertex alignment functionality
 - [ ] Save / Load pattern data
 - [ ] Previs outfit
